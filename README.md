@@ -1,1 +1,1 @@
-This code could be so long
+This code may be slow if you enter a long password.
