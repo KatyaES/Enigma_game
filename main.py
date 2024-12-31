@@ -1,7 +1,8 @@
 import random
 import time
 def func():
-    symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()-_=+[]{};:'|,.<>/?"
+    symbols = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    print('Your password can only consist of letters and numbers')
     password = input("Enter password: ")
     time_start = time.time()
     length_password = len(password)
